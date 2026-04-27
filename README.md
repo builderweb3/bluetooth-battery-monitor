@@ -32,7 +32,7 @@ To monitor a device, you need its unique MAC address. You can find this using `b
 
 ## 📥 Installation
 
-1.  **Download:** Grab the latest `.deb` package from the [official website](https://://mlace.combluetooth-battery-monitor_0.01a09_amd64.deb).
+1.  **Download:** Grab the latest `.deb` package from the [official website](https://mlace.com/btmonitor/bluetooth-battery-monitor_0.01a09_amd64.deb).
 2.  **Install:** Open the downloaded file with your system **App Center** or install via terminal:
     ```bash
     sudo apt install ./bluetooth-battery-monitor_0.01a09_amd64.deb

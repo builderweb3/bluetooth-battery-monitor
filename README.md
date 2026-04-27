@@ -1,31 +1,48 @@
-# bluetooth-battery-monitor
+# Bluetooth Battery Monitor (BTMonitor)
 
-Bluetooth Battery Monitor (BTMonitor)
+**BTMonitor** is a simple battery level and charging monitor for wireless Bluetooth devices, created by **mLace**. It utilizes `UPower` and specific device MAC addresses to track battery status in real-time.
 
-created by mLace 
-dev website https://mlace.com
-BTMonitor website https://mlace.com/btmonitor/
+---
 
-A small utility to monitor battery levels of Bluetooth devices using UPower.
+## 📸 Screenshot
+| Main Screen | In Use | About |
+| :---: | :---: | :---: |
+| <img src="https://mlace.com/btmonitor/btmonitorabout.png" width="250" > | <img src="https://mlace.com/btmonitor/btmonitorinuse.png" width="250" /> | <img src="https://mlace.com/btmonitor/btmonitormainscreen.png" width="250"> | 
 
-Bluetooth Battery Monitor (BTMonitor) is a simple battery level and charging monitor for wireless bluetooth devices.
+---
 
-BTMonitor uses a device's specific MAC address to check the battery level so any wireless device you know the MAC address to can be displayed.
+## 🚀 Features
+- Monitor battery percentage and charging status.
+- Support for any Bluetooth device with a known MAC address.
+- Lightweight utility utilizing `UPower` integration.
 
-In order to find your connected devices' MAC address, use bluetoothctl via the command line to see connected devices via list:
+---
 
-Steps to Find Bluetooth MAC Address:
+## 🔍 How to Find Your Bluetooth MAC Address
+To monitor a device, you need its unique MAC address. You can find this using `bluetoothctl` via the command line:
 
-    1] Open Terminal: Press Ctrl+Alt+T.
-    2] Start Bluetooth Controller: Type bluetoothctl and press Enter.
-    3] List Known Devices: Type devices to list previously paired devices and their MAC addresses.
-    4] Scan for New Devices: If the device isn't listed, turn on pairing mode on your device and type scan on in the terminal to find it.
-    5] Identify MAC: The output will show the MAC address in the format XX:XX:XX:XX:XX:XX next to the device name.
-    6] Exit: Type quit to exit bluetoothctl.
+1.  **Open Terminal:** Press `Ctrl+Alt+T`.
+2.  **Start Bluetooth Controller:** Type `bluetoothctl` and press **Enter**.
+3.  **List Known Devices:** Type `devices` to list previously paired devices and their MAC addresses.
+4.  **Scan for New Devices:** If your device isn't listed, put it in pairing mode and type `scan on`.
+5.  **Identify MAC:** Find the address in the format `XX:XX:XX:XX:XX:XX` next to your device name.
+6.  **Exit:** Type `quit` to exit.
 
-Installation:
+---
 
-  1] Download the .deb from https://mlace.com/btmonitor/bluetooth-battery-monitor_0.01a09_amd64.deb
+## 📥 Installation
 
-  2] Continue the install via the App Center. (apt should install all dependencies)
-  
+1.  **Download:** Grab the latest `.deb` package from the [official website](https://://mlace.combluetooth-battery-monitor_0.01a09_amd64.deb).
+2.  **Install:** Open the downloaded file with your system **App Center** or install via terminal:
+    ```bash
+    sudo apt install ./bluetooth-battery-monitor_0.01a09_amd64.deb
+    ```
+    *(Apt will automatically handle any necessary dependencies.)*
+
+---
+
+## 🔗 Project Links
+- **Developer Website:** [mlace.com](https://mlace.com)
+- **BTMonitor Home:** [mlace.com/btmonitor](https://mlace.com/btmonitor)
+
+---

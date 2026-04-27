@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Bluetooth Battery Monitor
+Comment=Check status of Wireless Battery Level
+Exec=/home/avid/Projects/bluetooth-battery-monitor/_build/src/bluetooth-battery-monitor
+Icon=/home/avid/Projects/bluetooth-battery-monitor/package/usr/share/icons/hicolor/64x64/apps/my-app-icon.svg
+Terminal=false
+Type=Application
+Categories=Utility;GTK;
+Keywords=battery;device;bluetooth;wireless;

@@ -1,0 +1,9 @@
+Package: bluetooth-battery-monitor
+Version: 0.1a009
+Section: utils
+Priority: optional
+Architecture: amd64
+Depends: libgtkmm-3.0-1v5, libc6, libgcc-s1, libstdc++6
+Maintainer: mLace <ace@mlace.com>
+Description: Bluetooth Battery Monitor
+ A small utility to monitor battery levels of Bluetooth devices using UPower.
